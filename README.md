@@ -5,7 +5,7 @@
 <hr/>
 
 
-###] ASSIGNMENT 2 :dart:
+### ASSIGNMENT 2 :dart:
 | Assignment No. | NAME | LINK|
 | :---:   | :-: | :-: |
 | 1 | Hollow Rhombus Pattern         |
