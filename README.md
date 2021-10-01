@@ -1,6 +1,6 @@
 # Hackerblock-Practice CPP :bookmark_tabs:
 
-#### This Repository📁 contains all the assignments:books: related work for both CpLusPlus given by faculty or instructor of Coding Blocks platfrom.
+#### This Repository📁 contains all the assignments:books: related work for CpLusPlus given by faculty or instructor of Coding Blocks platfrom.
 
 <hr/>
 
