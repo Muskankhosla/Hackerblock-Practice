@@ -7,7 +7,7 @@
 
 
 
-###] ASSIGNMENT 1 :dart:
+###] ASSIGNMENT 2 :dart:
 | Assignment No. | NAME | TOPIC |
 | :---:   | :-: | :-: |
 | 1 | Hollow Rhombus Pattern         |
