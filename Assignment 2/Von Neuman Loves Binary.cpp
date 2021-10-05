@@ -1,28 +1,20 @@
 #include<iostream>
+#include<cmath>
 using namespace std;
-
-void convert(int arr[], int n)
-{ int dec_value [50]={0};
-     for(int i=0; i<n ;i++)
-    {
-      int base = 1; 
-     while (arr[i]>0) { 
-        int last_digit = arr[i] % 10; 
-        arr[i] = arr[i] / 10; 
-        dec_value[i] += last_digit * base; 
-        base = base * 2; 
-    } 
-  // 	cout<<dec_value[i]<<endl;
+int main() {
+    int n;
+    cin>>n;
+    long long b;
+    while((n--)>0){
+        cin>>b;
+        int p=0;
+        long long d=0;
+        while(b>0){
+            d+=(b%10)*pow(2,p);
+            p+=1;
+            b/=10;
+        }
+        cout<<d<<endl;
     }
-  for(int i=0; i<n ;i++)
-	{ cout<<dec_value[i]<<endl;	}
-}
-int main()
-{int n;
-cin>>n;
-int arr[50];
-for(int i=0; i<n ;i++)
-	{cin>>arr[i];}
-convert(arr,  n);
-return 0;
+	return 0;
 }
